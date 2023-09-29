@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0;
+   
+    
+}
+
+
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #d7c5f7;
+}
+
+header{
+    background-color: #917FB3;
+    margin: 0%;
+   
+}
+
+.mini-nav{
+    background-color: black;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-nav > h3{
+    color: white;
+    font-size: small;
+}
+
+header > nav{
+    color: #917FB3 ;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+#navbarDark > form{
+    margin-right: 5rem;
+}
+
+
+
+
+#navbarDark > ul > li{
+    background-color: #917FB3;
+}
+
+#navbarDark{
+    background-color: #917FB3;
+}
+.container-fluid, .form-control{
+    background-color: #917FB3;
+    color: #917FB3;
+}
+
+
+.nombre-ecommerce{
+    
+    background-color: 917FB3;
+    margin-left: 14rem;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    
+      padding: 0;   
+}
+
+
+
+
+
+#carouselWithControls{
+    width: 100%;
+    height: 35rem;
+    
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 35rem;
+  
+}
+
+.carousel-item{
+    width: 100%;
+    height: 35rem;
+   
+}
+
+
+main{
+    width: 100%;
+    
+    padding: 0rem 10rem 10rem ;
+    background-color: #d7c5f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+body > h1{
+    margin-bottom: 0%;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    padding: 4rem;
+    font-weight: 400;
+    
+    
+    
+    position: relative;
+    top: 0rem;
+    margin-bottom:  0px;
+    background-color:#d7c5f7;
+    
+   
+    
+}
+
+#productos-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+   
+
+    
+    
+    
+ 
+}
+
+
+
+.div-item{
+    
+    padding: 5rem, 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 480px;
+    
+   
+    background-color: #c3b4ec;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+   
+    &:hover{
+        background-color: #917FB3;
+    }
+    
+    
+    
+  
+    
+}
+
+.div-item > img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: -24px;
+    top: -20px;
+    
+    
+}
+
+   
+.div-item > h3{
+    font-size: 20px;
+    
+
+
+}
+
+
+
+.div-item > .ver-mas{
+    color: black;
+    background-color: #a492c4;
+    position: relative;
+    top: 2rem;
+    margin-bottom: 0.5rem;
+   
+    &:hover{
+        background-color: #c1ace7;
+    }
+   
+    
+}
+
+.div-item >.agregar-carrito{
+    color: black;
+    background-color: #a492c4;
+    position: relative;
+    top: 2rem;
+   
+    &:hover{
+        background-color: #c1ace7;
+    }
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #917FB3;
+    padding: 0rem 1rem;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+}
+
+ul.faq li a {
+    color: #d7c5f7;
+    text-decoration: none; 
+  }
+
+  ul.faq li a:hover {
+    color: #c3b4ec; 
+  }
+
+body > footer > ul.faq-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+   
+}
+
+.png-redes{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+}
+
+body > footer > ul.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 0.5rem;
+}
+
+body > footer > ul.ubicacion{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 0.5rem;
+}
+
+body > footer > ul.ubicacion > li:nth-child(1){
+    text-align: center;
+    font-size: 1rem;
+}
+
+    
+
+
+
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        height: 48rem;
+    }
+
+    #carouselWithControls > div > div > img{
+        width: 100%;
+        height: 24rem;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        padding: 3rem;
+    }
+   
+    body > h1{
+        padding: 2rem;
+    }
+
+    footer{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        height: 48rem;
+    }
+
+    #carouselWithControls > div > div > img{
+        width: 100%;
+        height: 24rem;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        padding: 2rem;
+    }
+   
+    body > h1{
+        padding: 2rem;
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        column-gap: 4rem;
+        align-items: center;
+    }
+
+    body > footer > ul.ubicacion > li:nth-child(1){
+        text-align: start;
+    }
+}

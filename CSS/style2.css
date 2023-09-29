@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh; /* Evita que el contenido sea más corto que la pantalla */
+    background-color: #d7c5f7;
+    font-family: Arial, sans-serif; /* Cambia la fuente predeterminada */
+}
+
+header {
+    background-color: #917FB3;
+    padding: 1rem 0; /* Añade un poco de espacio arriba y abajo del encabezado */
+}
+
+.mini-nav {
+    background-color: black;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-nav > h3 {
+    color: white;
+    font-size: 14px; /* Tamaño de fuente ajustado */
+}
+
+header > nav {
+    color: #917FB3;
+}
+
+#navbarDark > form {
+    margin-right: 2rem; /* Reduce el margen derecho */
+}
+
+#navbarDark > ul > li {
+    background-color: #917FB3;
+}
+
+#navbarDark {
+    background-color: #917FB3;
+}
+
+.container-fluid,
+.form-control {
+    background-color: #917FB3;
+    color: white; /* Texto en blanco para mejor legibilidad */
+}
+
+#navbarDark > form > input {
+    color: black; /* Texto negro para mejor legibilidad */
+    background-color: white;
+}
+
+.nombre-ecommerce {
+    background-color: #917FB3;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    padding: 1rem 0; /* Agrega un poco de espacio arriba y abajo del nombre */
+}
+
+body > h1 {
+    font-size: 1.5rem; /* Tamaño de fuente ajustado */
+    font-weight: 500; /* Grosor de fuente ajustado */
+    margin-top: 1rem; /* Añade espacio superior */
+}
+
+main {
+    width: 100%;
+    padding: 2rem; /* Añade espacio uniforme al contenido */
+    background-color: #d7c5f7;
+    display: flex;
+    justify-content: center;
+}
+
+#detalles-de-producto {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+#detalle-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    max-width: 100%;
+}
+
+#detalle-producto > div > img {
+    max-width: 100%; /* Evita que la imagen sea más ancha que su contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    margin-top: 1rem;
+}
+
+#detalle-producto > div {
+    padding: 1rem;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+#detalle-producto > div > button {
+    color: white;
+    background-color: #a492c4;
+    margin-top: 1rem;
+    border: none; /* Elimina el borde del botón */
+    padding: 0.5rem 1rem; /* Espaciado del botón ajustado */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+footer {
+    background-color: #917FB3;
+    padding: 1rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul.faq li a {
+    color: #d7c5f7;
+    text-decoration: none;
+}
+
+ul.faq li a:hover {
+    color: #c3b4ec;
+}
+
+body > footer > ul.faq-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espaciado entre elementos ajustado */
+}
+
+.png-redes {
+    width: 2rem;
+    height: 2rem;
+}
+
+body > footer > ul.faq,
+body > footer > ul.ubicacion {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 0.5rem;
+}
+
+body > footer > ul.ubicacion > li:nth-child(1) {
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+    }
+
+    #carouselWithControls > div > div > img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    body > h1 {
+        font-size: 1.2rem; /* Tamaño de fuente ajustado */
+    }
+
+    footer {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: auto;
+    }
+
+    #carouselWithControls > div > div > img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    body > h1 {
+        font-size: 1.2rem; /* Tamaño de fuente ajustado */
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body > footer > ul.ubicacion > li:nth-child(1) {
+        text-align: start;
+    }
+}
+
+#product-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    #product-image {
+        width: 100%;
+    }
+}
+footer {
+    background-color: #917FB3;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente los elementos del footer */
+}
